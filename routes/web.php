@@ -24,3 +24,7 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('pages/contact');
 })->name('contact');
+
+Route::get('/random-page', function () {
+    return view('pages/random-page');
+})->name('random-page');
